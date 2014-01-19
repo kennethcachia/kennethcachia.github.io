@@ -1,7 +1,9 @@
 - title: BackgroundCheck
   description: Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it.
   github: https://github.com/kennethcachia/Background-Check
+  url: http://www.kennethcachia.com/background-check
 
 - title: Shape Shifter
   description: A canvas experiment.
   github: https://github.com/kennethcachia/Shape-Shifter
+  url: http://www.kennethcachia.com/shape-shifter
