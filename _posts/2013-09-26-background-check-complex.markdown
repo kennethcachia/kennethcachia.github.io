@@ -1,8 +1,7 @@
 ---
 layout: post
-title:  Test
-date:   2014-01-05 22:19:37
-categories: blog
+title:  BackgroundCheck &mdash; Complex backgrounds
+date:   2013-09-26 08:00:00
 ---
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aenean consectetur fringilla odio in faucibus. Quisque dignissim gravida convallis. Duis cursus ligula at velit elementum fringilla. Vestibulum laoreet turpis at suscipit dictum. Quisque condimentum lectus ac neque malesuada, at congue metus sodales.
