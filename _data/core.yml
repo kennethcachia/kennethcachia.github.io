@@ -1,0 +1,5 @@
+projectThumbnails: /assets/thumbnails/
+css: /assets/css/
+nav:
+  - {label: Projects, url: '/', active: 'index.html'}
+  - {label: About, url: '/about', active: 'about/index.html'}
