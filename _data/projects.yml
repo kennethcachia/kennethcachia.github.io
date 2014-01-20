@@ -1,9 +1,13 @@
 - title: BackgroundCheck
-  description: Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it.
-  github: https://github.com/kennethcachia/Background-Check
-  url: http://www.kennethcachia.com/background-check
+  description: "Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it."
+  link: '/background-check'
+  thumbnail: background-check.jpg
+  links:
+    - {label: Github, url: 'https://github.com/kennethcachia/Background-Check'}
 
 - title: Shape Shifter
-  description: A canvas experiment.
-  github: https://github.com/kennethcachia/Shape-Shifter
-  url: http://www.kennethcachia.com/shape-shifter
+  description: "Shape Shifter is a canvas experiment in which a set of particles is used to render different shapes based on the user's input. It supports multiple modes: text, countdown, time and icons."
+  link: '/shape-shifter'
+  thumbnail: shape-shifter.jpg
+  links:
+    - {label: Github, url: 'https://github.com/kennethcachia/Shape-Shifter'}
