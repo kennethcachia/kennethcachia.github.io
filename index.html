@@ -9,16 +9,14 @@ title: Kenneth Cachia
       <article class="project gap">
         <h1 class="project-title">{{project.title}}</h1>
 
-        <div class="project-content">
-          <a href="{{project.link}}" target="_blank"><img src="{{site.data.core.projectThumbnails}}{{project.thumbnail}}" /></a>
-          <p>{{project.description}}</p>
-          <p>
-            <a href="{{project.link}}" target="_blank">Project</a>
-            {% for link in project.links %}
-            <a target="_blank" href="{{link.url}}">{{link.label}}</a>
-            {% endfor %}
-          </p>
-        </div>
+        <a href="{{project.link}}" target="_blank"><img src="{{site.data.core.projectThumbnails}}{{project.thumbnail}}" /></a>
+        <p class="project-description">{{project.description}}</p>
+        <p>
+          <a class="a--small" href="{{project.link}}" target="_blank">Project</a>
+          {% for link in project.links %}
+          <a class="a--small" href="{{link.url}}" target="_blank">{{link.label}}</a>
+          {% endfor %}
+        </p>
       </article>
 
     {% endfor %}
