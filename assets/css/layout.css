@@ -71,12 +71,14 @@ img {
 .nav {
   padding-top: 1.5em;
   padding-bottom: 1.5em;
-  background: #f9f9f9;
+  background: #f7f7f7;
 }
 
 .nav-list {
   margin-top: 0;
   margin-bottom: 0;
+  line-height: 1em;
+  margin-top: -0.25em;
 }
 
 .nav-item {
