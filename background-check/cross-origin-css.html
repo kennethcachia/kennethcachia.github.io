@@ -16,7 +16,7 @@
     <script src="scripts/background-check.min.js"></script>
     
     <script src="scripts/drag.js"></script>
-    <script src="scripts/main.js"></script>
+    <script src="scripts/cross-origin-css.js"></script>
     
     
   </head>
@@ -29,13 +29,15 @@
       <h1>BackgroundCheck</h1>
       <p class="header-subtitle">Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it.</p>
 
+      
+      <div class="header-drag">Drag and Release elements over images</div>
 
-      <div class="demo">
-        <div class="demo-images demo-images--stacked">
-          <img class="demo-image-first" src="images/2.jpg" draggable="false" />
-          <img class="demo-image-second" src="images/4.jpg" draggable="false" />
-          <img class="demo-image-third" src="images/5.jpg" draggable="false" />
-        </div>
+      <div class="demo demo--single">
+        <div class="demo-css demo-css--cross-origin" data-src="//upload.wikimedia.org/wikipedia/commons/thumb/d/d2/Centralpark.png/800px-Centralpark.png"></div>
+
+        <p class="demo-credits">
+          The image is served with <a href="http://developer.mozilla.org/en-US/docs/HTTP/Access_control_CORS" target="_blank"><strong>access-control-allow-origin: *</strong></a> from <a href="http://en.wikipedia.org/wiki/File:Centralpark.png" target="_blank">Wikipedia</a>.
+        </p>
 
         
         <div class="border border--one"><div class="icon target"></div></div>
