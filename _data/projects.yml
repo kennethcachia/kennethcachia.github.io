@@ -1,3 +1,8 @@
+- title: Plain Pattern
+  description: "An SVG based seamless pattern maker."
+  link: '/plain-pattern'
+  thumbnail: plain-pattern.png
+
 - title: BackgroundCheck
   description: "Automatically switch to a darker or a lighter version of an element depending on the brightness of images behind it."
   link: '/background-check'
