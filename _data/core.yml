@@ -7,4 +7,3 @@ social:
   - {label: Email, url: 'mailto:hello@kennethcachia.com', blank: false}
   - {label: Twitter, url: '//twitter.com/kennethcachia'}
   - {label: GitHub, url: '//github.com/kennethcachia'}
-  - {label: Codepen, url: '//codepen.io/kennethcachia'}
