@@ -1,9 +1,4 @@
-projectThumbnails: /assets/thumbnails/
 css: /assets/css/
-nav:
-  - {label: Projects, url: '/', active: 'index.html'}
-  - {label: Blog, url: '/posts', active: 'posts/index.html'}
-  - {label: About, url: '/about', active: 'about/index.html'}
 social:
   - {label: Email, url: 'mailto:hello@kennethcachia.com', blank: false}
   - {label: Twitter, url: '//twitter.com/kennethcachia'}

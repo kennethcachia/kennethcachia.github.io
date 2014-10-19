@@ -4,20 +4,31 @@ title: Kenneth Cachia
 ---
 
   <section>
+    <h1>Projects</h1>
     {% for project in site.data.projects %}
-
-      <article class="project gap">
-        <h1 class="project-title">{{project.title}}</h1>
-
-        <a href="{{project.link}}" target="_blank"><img src="{{site.data.core.projectThumbnails}}{{project.thumbnail}}" /></a>
-        <p class="project-description">{{project.description}}</p>
-        <p>
-          <a class="a--small" href="{{project.link}}" target="_blank">Project</a>
-          {% for link in project.links %}
-          <a class="a--small" href="{{link.url}}" target="_blank">{{link.label}}</a>
-          {% endfor %}
-        </p>
+      <article>
+        <h2><a href="{{project.link}}" target="_blank">{{project.title}}</a></h2>
+        <p>{{project.description}}</p>
       </article>
-
     {% endfor %}
+  </section>
+
+  <section>
+    <h1>Misc</h1>
+    {% for other in site.data.others %}
+      <article>
+        <h2><a href="{{other.link}}" target="_blank">{{other.title}}</a></h2>
+        <p>{{other.description}}</p>
+      </article>
+    {% endfor %}
+  </section>
+
+  <section>
+    <h1>About</h1>
+    <article>
+      <p>Frontend Engineer at Squarespace.</p>
+      {% for social in site.data.core.social %}
+        <a class="social" href="{{social.url}}"{% if social.blank != false %} target="_blank"{% endif %}>{{social.label}}</a>
+      {% endfor %}
+    </article>
   </section>

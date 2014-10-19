@@ -1,45 +1,48 @@
+
 /* ==========================================================================
-   Core
+   Typography
    ========================================================================== */
 
 body {
   background: #fff;
-  color: #333;
+  color: #111;
   font-family: 'Roboto', sans-serif;
   font-size: 18px;
-  line-height: 1.5;
-}
-
-a {
-  color: inherit;
-  text-decoration: none;
-}
-
-p a {
-  border-bottom: 1px dotted;
-}
-
-.a--small {
-  font-size: .9em;
-  border-bottom: 1px solid;
-  margin-right: .75em;
-}
-
-h1,
-p,
-.post-date,
-.embed {
-  margin: 0 0 1em 0;
+  font-weight: 100;
+  line-height: 1.6;
 }
 
 h1 {
-  font-size: 1.15em;  
-  font-weight: 700;
+  display: inline-block;
+  font-size: 1.6em;
+  font-weight: 100;
+  margin: 0 0 20px 0;
 }
 
-img {
-  margin: 0 0 1em 0;
-  max-width: 100%;
+h2 {
+  font-size: 1em;
+  font-weight: 500;
+}
+
+h2,
+p {
+  margin: 0;
+}
+
+a {
+  border-bottom: 1px solid;
+  text-decoration: none;
+  color: inherit;
+}
+
+a:hover {
+  color: #666;
+}
+
+.social {
+  font-size: .8em;
+  margin-right: .25em;
+  border-bottom: none;
 }
 
 
@@ -48,92 +51,25 @@ img {
    ========================================================================== */
 
 .layout {
-  max-width: 32em;
+  padding-top: 8em;
+  max-width: 500px;
   margin-left: auto;
   margin-right: auto;
   padding-left: 20px;
   padding-right: 20px;
 }
 
-.gap {
-  margin-bottom: 2.5em;
+section {
+  margin-bottom: 90px;
+}
+
+article:not(:last-of-type) {
+  margin-bottom: 20px;
 }
 
 
 /* ==========================================================================
-   Nav
+   Media Queries
    ========================================================================== */
 
-.nav {
-  padding-top: 1.5em;
-  padding-bottom: 1.5em;
-  background: #f7f7f7;
-}
-
-.nav-list {
-  margin-top: 0;
-  margin-bottom: 0;
-  line-height: 1em;
-  margin-top: -0.25em;
-}
-
-.nav-item {
-  display: inline-block;
-  font-size: 13px;
-  line-height: 1em;
-  text-transform: uppercase;
-  letter-spacing: 1px;
-  margin-right: 2em;
-}
-
-.nav-item--active {
-  font-weight: 700;
-}
-
-
-/* ==========================================================================
-   Embed
-   ========================================================================== */
-
-.embed {
-  position: relative;
-  width: 100%;
-}
-
-.embed--vimeo {
-  padding-bottom: 56.25%;
-}
-
-.embed > *:first-child {
-  position: absolute;
-  top: 0;
-  left: 0;
-  width: 100%;
-  height: 100%;
-}
-
-
-/* ==========================================================================
-   Post
-   ========================================================================== */
-
-.post-title {
-  margin-bottom: 0;
-}
-
-.post-date {
-  display: block;
-  font-size: .8em;
-  color: #999;
-}
-
-
-/* ==========================================================================
-   > 768px
-   ========================================================================== */
-
-@media screen and (min-width: 769px) {
-  .gap {
-    margin-bottom: 4em;
-  }
-}
+@media screen and (min-width: 769px) {}
