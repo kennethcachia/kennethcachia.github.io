@@ -39,10 +39,8 @@ a:hover {
   color: #666;
 }
 
-.social {
-  font-size: .8em;
-  margin-right: .25em;
-  border-bottom: none;
+.icon {
+  font-size: .9em
 }
 
 
@@ -51,7 +49,7 @@ a:hover {
    ========================================================================== */
 
 .layout {
-  padding-top: 8em;
+  padding-top: 60px;
   max-width: 500px;
   margin-left: auto;
   margin-right: auto;
@@ -60,7 +58,7 @@ a:hover {
 }
 
 section {
-  margin-bottom: 90px;
+  margin-bottom: 40px;
 }
 
 article:not(:last-of-type) {
@@ -69,7 +67,36 @@ article:not(:last-of-type) {
 
 
 /* ==========================================================================
+   Social accounts
+   ========================================================================== */
+
+.social {
+  padding: 0;
+  margin: 0;
+  font-size: .8em;
+  list-style: none;
+}
+
+.social li {
+  display: inline-block;
+  margin-right: .2em;
+}
+
+.social li a {
+  border-bottom: none;
+}
+
+
+/* ==========================================================================
    Media Queries
    ========================================================================== */
 
-@media screen and (min-width: 769px) {}
+@media screen and (min-width: 600px) {
+  .layout {
+    padding-top: 140px;
+  }
+
+  section  {
+    margin-bottom: 80px;
+  }
+}
