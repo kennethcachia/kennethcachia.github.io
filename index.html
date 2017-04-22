@@ -7,7 +7,7 @@ title: Kenneth Cachia
     <h1>Projects</h1>
     {% for project in site.data.projects %}
       <article>
-        <h2><a href="{{project.link}}" target="_blank">{{project.title}}</a></h2>
+        <h2><a href="{{project.link}}">{{project.title}}</a></h2>
         <p>{{project.description}}</p>
       </article>
     {% endfor %}
@@ -17,7 +17,7 @@ title: Kenneth Cachia
     <h1>Misc</h1>
     {% for other in site.data.others %}
       <article>
-        <h2><a href="{{other.link}}" target="_blank">{{other.title}}</a></h2>
+        <h2><a href="{{other.link}}">{{other.title}}</a></h2>
         <p>{{other.description}}</p>
       </article>
     {% endfor %}
